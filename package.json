@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-npm",
+  "version": "1.0.0",
+  "description": "Belajar NodeJS NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maulaalbi/nodejs-npm.git"
+  },
+  "keywords": [
+    "albi",
+    "nodejs",
+    "npm"
+  ],
+  "author": "maulaalbi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maulaalbi/nodejs-npm/issues"
+  },
+  "homepage": "https://github.com/maulaalbi/nodejs-npm#readme"
+}
