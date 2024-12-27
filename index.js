@@ -1,1 +1,3 @@
-console.info("Hello world!");
+import {writeToFile} from "./write.js";
+
+writeToFile("test.log", "Maula Albi");

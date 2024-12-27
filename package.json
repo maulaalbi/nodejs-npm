@@ -4,6 +4,9 @@
   "description": "Belajar NodeJS NPM",
   "main": "index.js",
   "scripts": {
+    "prestart": " echo`Before App Start`",
+    "start": "node index.js",
+    "poststart": "echo `After App Start`",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/maulaalbi/nodejs-npm/issues"
   },
-  "homepage": "https://github.com/maulaalbi/nodejs-npm#readme"
+  "homepage": "https://github.com/maulaalbi/nodejs-npm#readme",
+  "type": "module",
+  "dependencies": {
+    "lodash" : "4.17.21"
+  }
 }
